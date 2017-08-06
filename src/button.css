@@ -1,3 +1,7 @@
-.button: {
-  background-color: blue;
+:global(.thisIsGlobal) {
+  background-color: green;
+}
+
+.button {
+  background-color: red;
 }
